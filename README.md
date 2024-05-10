@@ -1,12 +1,13 @@
 ## 📌 Description
-full open source workflow for generating a geostatistics block model  
+full open source geostatistics workflow for generating a block model  
 this script integrates multiple generic tools and modules in a single graphical desktop application  
+the result is a complete block model in the vtk file format, that can be easily converted to other formats like csv, bmf, dm, etc.
 the target audience is academic use by geostatistic professionals or industrial proof of concepts projects  
-its not suited for production use  
+its not suited for production use. check notes.
 ## 📸 Screenshot
 ![screenshot1](https://github.com/pemn/assets/blob/main/vtk_geostats1.png?raw=true)
 ## 🧩 Implementation
-This implementations uses a jupyter notebook. Check my other project, bm_geostat_process for a desktop based implementation.
+This implementations uses a jupyter notebook. Check my other project, bm_geostat_process, for a desktop based implementation.
 This geostatistics estimation process consists of the following steps:
  1. Data and parameter input
  2. Sample database postprocess
@@ -38,6 +39,8 @@ Start jupyter Notebook or jupyter Lab.
 If you dont already have a shortcut, the auxiliary script jupyter_localhost.bat is provided for easily starting jupyter on Microsoft Windows systems.
 Follow the instructions provided on the notebook.
 ## 📓 Notes
+This proof of concept uses linear regression as the interpolation engine. Real products will require [Pykrig](https://geostat-framework.readthedocs.io/projects/pykrige/en/stable/index.html) or the isatis python module (isatis.py).
+The reserves calculation step is also a simple pivot table placeholder. For a real reserves calculation, use a commercial software or check my other project, vtk_reserves for a open source tool.
 ## 📚 Examples
 ### db checks
 ![screenshot2](https://github.com/pemn/assets/blob/main/vtk_geostats2.png?raw=true)
