@@ -4,7 +4,7 @@ this script integrates multiple generic tools and modules in a single graphical 
 the target audience is academic use by geostatistic professionals or industrial proof of concepts projects  
 its not suited for production use  
 ## 📸 Screenshot
-![screenshot1](https://github.com/pemn/assets/blob/main/bm_geostat_process1.png?raw=true)
+![screenshot1](https://github.com/pemn/assets/blob/main/vtk_geostats1.png?raw=true)
 ## 🧩 Implementation
 This implementations uses a jupyter notebook. Check my other project, bm_geostat_process for a desktop based implementation.
 This geostatistics estimation process consists of the following steps:
@@ -39,20 +39,19 @@ If you dont already have a shortcut, the auxiliary script jupyter_localhost.bat 
 Follow the instructions provided on the notebook.
 ## 📓 Notes
 ## 📚 Examples
-### output 3d grid
-![screenshot2](https://github.com/pemn/assets/blob/main/bm_geostat_process2.png?raw=true)
-### output reserves report
-![screenshot3](https://github.com/pemn/assets/blob/main/bm_geostat_process3.png?raw=true)
-### output heatmap chart
-![screenshot4](https://github.com/pemn/assets/blob/main/bm_geostat_process4.png?raw=true)  
-![screenshot5](https://github.com/pemn/assets/blob/main/bm_geostat_process5.png?raw=true)
+### db checks
+![screenshot2](https://github.com/pemn/assets/blob/main/vtk_geostats2.png?raw=true)
+### grade checks
+![screenshot3](https://github.com/pemn/assets/blob/main/vtk_geostats3.png?raw=true)
+### grade voxel view
+![screenshot4](https://github.com/pemn/assets/blob/main/vtk_geostats4.png?raw=true)
+### reserves calculation
+![screenshot5](https://github.com/pemn/assets/blob/main/vtk_geostats5.png?raw=true)
 ## 🧰 Tools
  - jupyter_localhost.bat: (optional) starts jupyter
  - wf01_main.ipynb: notebook with the complete workflow. will call the other tools which should be on the same folder.
  - db_assay_runlength.py: helper script for sample compositing
- - db_linear_model.py: linear regressor
- - vtk_flag_regions.py: create or flag a grid using solids
- - vtk_reserves.py: open source reserves report
+ - db_linear_model.py: default linear regressor using scikit
 ## 🙋 Support
 Any question or problem contact:
  - paulo.ernesto
