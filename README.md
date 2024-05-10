@@ -47,7 +47,7 @@ The reserves calculation step is also a simple pivot table placeholder. For a re
 ## 🧰 Tools
  - jupyter_localhost.bat: (optional) starts jupyter
  - wf01_main.ipynb: notebook with the complete workflow. will call the other tools which should be on the same folder.
- - db_assay_runlength.py: helper script for sample compositing
+ - db_desurvey_straight.py: helper script for sample compositing
  - db_linear_model.py: default linear regressor using scikit
 ## 🙋 Support
 Any question or problem contact:
