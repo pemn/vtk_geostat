@@ -1,16 +1,17 @@
 ## 📌 Description
-full open source geostatistics workflow for generating a block model  
-this script integrates multiple generic tools and modules in a single graphical desktop application  
-the result is a complete block model in the vtk file format, that can be easily converted to other formats like csv, bmf, dm, etc.
-the target audience is academic use by geostatistic professionals or industrial proof of concepts projects  
-its not suited for production use. check notes.
+full open source geostatistics workflow for generating a block model.  
+this script integrates multiple generic tools and modules in a full process.  
+the result is a complete block model in the vtk file format, that can be easily converted to other formats like csv, bmf, dm, etc.  
+the target audience is geologists and other mining industry professionals or students.  
+this is a proof of concept not intended for production use. most steps are placeholders which should be replaced with real tools. check notes.
+the idea is to provide a common backbone for custom processes tailored for each situation.
 ## 📸 Screenshot
 ![screenshot1](https://github.com/pemn/assets/blob/main/vtk_geostats1.png?raw=true)
 ## 🧩 Implementation
 This implementations uses a jupyter notebook. Check my other project, bm_geostat_process, for a desktop based implementation.
 This geostatistics estimation process consists of the following steps:
  1. Data and parameter input
- 2. Sample database postprocess
+ 2. Sample database preprocess
  3. Grid creation
  4. Flag litho solids
  5. Multivariate grade estimation
@@ -18,22 +19,15 @@ This geostatistics estimation process consists of the following steps:
  7. QA checks
  8. Reserve Report
 ## 📦 Installation
-In case a python distribution is not already available, the recomended distribution is [Winpython](https://winpython.github.io/) 3.8+.  
+In the case a python distribution is not already available, the recomended distribution is [Winpython](https://winpython.github.io/) 3.8+.  
 Download the installer from the link above.  
 Extract into this windows special folder:  
 `%APPDATA%`  
 The correct path to the python executable should be similar to this example:  
 `C:\Users\user\AppData\Roaming\WPy64-31131\python-3.12.3.amd64\python.exe`  
-Download this entire repository as zip and extract to a valid folder.  
-Windows blocks executables in protected folders (and subfolders) such as:
- - Desktop
- - Downloads
- - Documents
- - OneDrive Synced folders
+Download this entire repository as zip and extract to the notebooks subfolder in the Winpython installations. Ex.:  
+`C:\Users\user\AppData\Roaming\WPy64-31230\notebooks`
 
-Also, its not recomended to use the winpython install folder to save this script.  
-So you may need to create a new valid folder directly in the C: drive. Ex.:  
-`c:\scripts\geostat`
 ## 🎬 Run
 Start jupyter Notebook or jupyter Lab.
 If you dont already have a shortcut, the auxiliary script jupyter_localhost.bat is provided for easily starting jupyter on Microsoft Windows systems.
