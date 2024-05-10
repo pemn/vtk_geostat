@@ -1,5 +1,5 @@
 ## 📌 Description
-full open source geostatistics workflow for generating a block model.  
+full open source geostatistics workflow for generating a geological block model.  
 this script integrates multiple generic tools and modules in a full process.  
 the result is a complete block model in the vtk file format, that can be easily converted to other formats like csv, bmf, dm, etc.  
 the target audience is geologists and other mining industry professionals or students.  
