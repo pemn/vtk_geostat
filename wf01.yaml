@@ -1,0 +1,25 @@
+- - sample_db
+  - FileSelector
+  - vox_samples_rand.xlsx
+- - lito_field
+  - String
+  - lito
+- - lito_mesh
+  - MultiFileSelector
+  - - vox_low.vtk
+    - vox_medium.vtk
+    - vox_high.vtk
+- - grade_fields
+  - List
+  - - grade1
+    - grade2
+    - grade3
+- - grid_size
+  - Integer
+  - 100
+- - grid_file
+  - FileSelector
+  - output.vtk
+- - export_bmf
+  - Boolean
+  - false
