@@ -49,6 +49,11 @@ The reserves calculation step is also a simple pivot table placeholder. For a re
  - wf01_main.ipynb: notebook with the complete workflow. will call the other tools which should be on the same folder.
  - db_desurvey_straight.py: helper script for sample compositing
  - db_linear_model.py: default linear regressor using scikit
+## 🧊 Test Data
+[vox_samples_rand.xlsx](https://github.com/pemn/vtk_geostat/raw/main/sample_data/vox_samples_rand.xlsx)  
+[vox_low.vtk](https://github.com/pemn/vtk_geostat/raw/main/sample_data/vox_low.vtk)  
+[vox_medium.vtk](https://github.com/pemn/vtk_geostat/raw/main/sample_data/vox_medium.vtk)  
+[vox_high.vtk](https://github.com/pemn/vtk_geostat/raw/main/sample_data/vox_high.vtk)  
 ## 🙋 Support
 Any question or problem contact:
  - paulo.ernesto
