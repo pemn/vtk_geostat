@@ -9,6 +9,7 @@
   - - vox_low.vtk
     - vox_medium.vtk
     - vox_high.vtk
+    - vox_waste.vtk
 - - grade_fields
   - List
   - - grade1
@@ -17,9 +18,17 @@
 - - grid_size
   - Integer
   - 100
+- - engine
+  - Selector
+  - - scikit
+    - scikit
+    - pykrig
 - - grid_file
   - FileSelector
   - output.vtk
+- - export_csv
+  - Boolean
+  - false
 - - export_bmf
   - Boolean
   - false
